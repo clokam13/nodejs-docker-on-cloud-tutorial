@@ -1,0 +1,17 @@
+{
+  "name": "dog-api-container",
+  "version": "1.0.0",
+  "description": "REST API that retrieves dog breeds in a Docker container!",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "Chanakya Lokam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
